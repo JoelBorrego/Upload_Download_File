@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subir archivo con javascript y ajax </title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="principal">
+<h1>Upload File</h1>
+<form action="" id="form_subir">
+    <div class="form-1-2">
+        <label for="">File Upload:</label>
+        <input type="file" name="archivo" required>
+    </div>
+    <div class="barra">
+        <div class="barra_azul" id="barra_estado">
+            <span></span>
+        </div>
+    </div>
+    <div class="acciones">
+        <input type="submit" class="btn" value="enviar">
+        <input type="button" class="cancel" id="cancelar" value="cancelar">
+    </div>
+
+    <div class="DownloadOption">
+        <h4>Download Section</h4>
+        <button id="download-button">Download</button>
+ 
+         <a id="save-file">Save File</a>
+         <progress id="progress" value="0"></progress>
+    </div>
+    
+    
+     
+   
+
+</form>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
